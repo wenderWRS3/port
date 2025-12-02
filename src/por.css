@@ -111,3 +111,12 @@ section {
     background-color: var(--cor1);
 
 }
+@media (max-width:660px ){
+
+    #imgConta{
+        display: none;
+    }
+    #logo{
+        display: none;
+    }
+}
