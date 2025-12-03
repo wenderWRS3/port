@@ -119,4 +119,10 @@ section {
     #logo{
         display: none;
     }
+    #texto{
+    display: none; 
+   }
+   #artigoCarreira{
+    
+   }
 }
