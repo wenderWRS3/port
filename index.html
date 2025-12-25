@@ -5,16 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/ab5f4594c7.js" crossorigin="anonymous"></script>
+ 
   <link rel="stylesheet" href="src/por.css">
-  <title>wender</title>
+  <link rel="stylesheet" href="src/menu.css">
+  <title>wender </title>
 </head>
 
 <body>
   <div id="topo">
     <h1 class="teste">wender </h1>
-    <a href="" id="bosta">
+    <button id="bosta" onclick="menu()">
+
       <i class="fa-solid fa-bars" id="burgue"></i>
-    </a>
+
+    </button>
   </div>
   <nav>
 
@@ -22,71 +26,100 @@
     <ul id="logo">
 
 
-      <li class="linksRapidosMas">
-        <a href="https://www.instagram.com/wender_wrs4?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-          class="linksRapidosStaly" target="_blank">
-          <i class="fa-regular fa-envelope"></i>
-        </a>
-      </li>
+
 
       <li class="linksRapidosMas">
-        <a href="" class="linksRapidosStaly">
+        <a href="https://www.instagram.com/wender_wrs4?igsh=MTBibDIweWlrOWE4NQ==" target="_blank"
+          class="linksRapidosStaly">
           <i class="fa-brands fa-instagram"></i>
       </li>
 
       <li class="linksRapidosMas">
-        <a href="" class="linksRapidosStaly">
+        <a href="" class="linksRapidosStaly" target="_blank">
           <i class="fa-solid fa-graduation-cap"></i>
       </li>
 
       <li class="linksRapidosMas">
-        <a href="" class="linksRapidosStaly">
+        <a href="https://www.linkedin.com/in/wender-rodriguesdesouza-6041b1279/
+" class="linksRapidosStaly" target="_blank">
           <i class="fa-brands fa-square-linkedin"></i>
         </a>
       </li>
     </ul>
   </nav>
+
+  <!--nav do desktop-->
+  <div id="menuA">
+    <nav id="desktopCllr">
+
+
+      <ul id="logoCllr">
+
+        <li class="linksRapidosMas">
+          <button id="bosta" onclick="naoMenu()">
+
+      <i class="fa-solid fa-bars" id="burgue"></i>
+        
+       </button>
+    </li>
+        <li class="linksRapidosMas">
+          <a href="" class="linksRapidosStaly" target="_blank">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </li>
+
+        <li class="linksRapidosMas">
+          <a href="https://www.instagram.com/wender_wrs4?igsh=MTBibDIweWlrOWE4NQ==" target="_blank"
+            class="linksRapidosStaly">
+            <i class="fa-brands fa-instagram"></i>
+        </li>
+
+        <li class="linksRapidosMas">
+          <a href="" class="linksRapidosStaly" target="_blank">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </li>
+
+        <li class="linksRapidosMas">
+          <a href="https://www.linkedin.com/in/wender-rodriguesdesouza-6041b1279/
+" class="linksRapidosStaly" target="_blank">
+            <i class="fa-brands fa-square-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
   <section>
     <div id="ajusteDeImg">
       <img src="src/img/Adobe Express - file.png" alt="imagemde contatabilidade" id="imgConta">
 
-      <p id="texto">
-        Estou iniciando minha trajetória na área contábil e, há dois meses, atuo como Auxiliar Contábil,
-        apoiando rotinas administrativas, financeiras e fiscais. Mesmo no começo da carreira,
-        tenho me dedicado a aprender rapidamente e a desenvolver um trabalho organizado, preciso e alinhado às normas e
-        procedimentos da contabilidade.
+      <div>
+        <article id="artigoCarreira">
+          <h2> Sobre minha trajetória profissional </h2>
+          <p>
 
-        Entre minhas atividades diárias estão o lançamento de notas fiscais, organização e conferência de documentos,
-        apoio na conciliação de contas, controle de arquivos e suporte à equipe em tarefas operacionais. Meu foco é
-        contribuir
-        com eficiência, responsabilidade e atenção aos detalhes.
+            <br>
 
-        Sou comprometida com o aprendizado contínuo e motivada
-        a evoluir profissionalmente, buscando aprimorar minhas habilidades e agregar cada vez
-        mais valor aos processos contábeis da empresa.</p>
+            Iniciei minha jornada na área contábil em outubro de 2025, atuando
+            em uma concessionária enquadrada no regime de <strong>lucro Real</strong>. Desde então,
+            tenho me dedicado ao desenvolvimento de habilidades essenciais para a rotina fiscal
+            e contábil, sempre com atenção aos detalhes e compromisso com a precisão das
+            informações.
+            <br><br>
+            Minhas atividades incluem a conferência de aquisições de mercadorias, análise e
+            validação de notas fiscais eletrônicas (NF-e), além do controle de entradas e
+            saídas de bens da empresa. Também realizo verificações necessárias para a apuração
+            correta do ICMS, garantindo conformidade com as exigências legais e a integridade
+            dos registros.
+            <br><br>
+            Além disso, desempenho o arquivamento e organização de documentos, contribuindo para um fluxo de trabalho
+            claro,
+            seguro e eficiente. Cada etapa do meu trabalho reflete minha dedicação em crescer na área e oferecer suporte
+            contábil confiável, alinhado às necessidades da empresa.
+          </p>
+        </article>
 
-      <article id="artigoCarreira">
-        <p>
-        <h2> Sobre minha trajetória profissional </h2>
-        <br>
-
-        Iniciei minha jornada na área contábil em outubro de 2025, atuando
-        em uma concessionária enquadrada no regime de <strong>lucro Real</strong>. Desde então,
-        tenho me dedicado ao desenvolvimento de habilidades essenciais para a rotina fiscal
-        e contábil, sempre com atenção aos detalhes e compromisso com a precisão das
-        informações.
-        <br><br>
-        Minhas atividades incluem a conferência de aquisições de mercadorias, análise e
-        validação de notas fiscais eletrônicas (NF-e), além do controle de entradas e
-        saídas de bens da empresa. Também realizo verificações necessárias para a apuração
-        correta do ICMS, garantindo conformidade com as exigências legais e a integridade
-        dos registros.
-        <br><br>
-        Além disso, desempenho o arquivamento e organização de documentos, contribuindo para um fluxo de trabalho claro,
-        seguro e eficiente. Cada etapa do meu trabalho reflete minha dedicação em crescer na área e oferecer suporte
-        contábil confiável, alinhado às necessidades da empresa.
-        </p>
-      </article>
+      </div>
     </div>
 
   </section>

@@ -1,0 +1,110 @@
+:root {
+    --cor1: #002349;
+    --cor2: #000000;
+    --cor3: #3D72B8;
+    --cor4: #A4C5F8;
+    --cor5: #e3e9f3;
+}
+
+@media (min-width: 0px) and (max-width: 560px) {
+
+    #imgConta {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+
+    }
+
+    #texto {
+        display: none;
+        padding: 10px;
+    }
+
+    #burgue {
+        display: block;
+        color: var(--cor5);
+    }
+
+    #artigoCarreira {
+        padding: 10px;
+    }
+    #naoBosta{
+         width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px;
+        box-shadow: 1px 0px 5px 0px var(--cor4);
+        border-radius: 40%;
+    }
+    #bosta {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--cor1);
+        border: 10px;
+        box-shadow: 1px 0px 5px 0px var(--cor4);
+        border-radius: 40%;
+    }
+
+    #topo {
+        position: sticky;
+        height: 80px;
+        padding: 10px 20px;
+        top: 0;
+        z-index: 2;
+    }
+
+    #ajusteDeImg {
+        margin: 0px;
+    }
+
+
+    #menuA {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    #desktopCllr {
+        display: none;
+        flex-direction: row;
+
+        background-color: var(--cor1);
+        z-index: 3;
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        right: 0px;
+        top: 80px;
+        height: 90vh;
+        width: 30vw;
+        opacity: 0.8;
+
+    }
+
+    #logoCllr {
+        display: flex;
+        justify-items: end;
+        flex-direction: column;
+        background-color: var(--cor1);
+        margin: 0px 20px;
+
+
+    }
+
+    .linksRapidosMas {
+
+        align-items: end;
+        background-color: var(--cor1);
+        list-style: none;
+
+    }
+
+}

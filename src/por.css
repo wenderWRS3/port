@@ -7,7 +7,7 @@
 
 :root {
     --cor1: #002349;
-    --cor2: #002349;
+    --cor2: #000000;
     --cor3: #3D72B8;
     --cor4: #A4C5F8;
     --cor5: #e3e9f3;
@@ -21,11 +21,11 @@ nav {
 
 #topo {
 
-   display: flex;
-   flex-direction:row ;
-   justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: var(--cor1);
-    color: var(--cor2);
+    color: var(--cor1);
     margin: auto;
 }
 
@@ -37,23 +37,25 @@ nav {
     display: flex;
     flex-direction: row;
 
-    background-color: var(--cor2);
+    background-color: var(--cor1);
 }
 
-#iconeContavel{
+#iconeContavel {
     height: 50px;
-    color: var(--cor2);
+    color: var(--cor1);
 }
 
 h1 {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     color: white;
 }
-#bosta{
- margin: 11px 11px ;
+
+#bosta {
+    margin: 11px 11px;
 }
+
 #burgue {
-    
+    display: none;
     color: var(--cor5)
 }
 
@@ -74,7 +76,7 @@ a {
 }
 
 i {
-    background-color: var(--cor2)
+    background-color: var(--cor1)
 }
 
 section {
@@ -111,18 +113,33 @@ section {
     background-color: var(--cor1);
 
 }
-@media (max-width:660px ){
 
-    #imgConta{
+#desktopCllr {
+    display: none;
+}
+
+.some {
+    display: none;
+}
+
+
+
+@media (min-width: 561px) and (max-width: 760px) {
+
+    #imgConta {
         display: none;
     }
-    #logo{
+
+    #burgue {
         display: none;
     }
-    #texto{
-    display: none; 
-   }
-   #artigoCarreira{
-    
-   }
+
+    #bosta {
+        display: none;
+    }
+
+    #texto {
+        display: none;
+    }
+
 }
