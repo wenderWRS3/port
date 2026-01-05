@@ -1,13 +1,11 @@
-var mmn = document.getElementById("desktopCllr")
-var ab1 = document.getElementById('bosta')
-function menu() {
-    mmn.style.display = "flex"
-    ab1.style.display = "none "
-    console.log(menu)
-}
+var opa = document.getElementById("abc")
+var op = document.getElementById("a1")
 
- function naoMenu(){
-    mmn.style.display = "none"
-    ab1.style.display = "flex"
-    console.log(naoMenu)
- }
+
+function j1(){
+if (op.classList.contains('ligado')) {
+    op.classList.remove('ligado')
+}else{
+    op.classList.add('ligado')
+}
+}
