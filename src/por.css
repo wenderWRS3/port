@@ -1,4 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Borel&family=Cherry+Cream+Soda&family=Croissant+One&family=Inconsolata:wght@200..900&family=Lobster&family=Lugrasimo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Cherry+Cream+Soda&family=Croissant+One&family=DM+Serif+Text:ital@0;1&family=Inconsolata:wght@200..900&family=Lobster&family=Lugrasimo&display=swap');
 
   * {
       padding: 0px;
@@ -147,6 +148,58 @@
       font-style: normal;
   }
 
+  #conferencia {
+    color: #331500;
+  }
+
+  #lançamentoos{color: #331500;}
+
+  #aquirvar{color: #331500;}
+
+  .putis{
+     display: none;  
+  }
+
+  /*butao da conferencia */
+  #butConferencia {
+      margin: 20px;
+      height: 30px;
+      width: 100px;
+      transition: all 140ms;
+  }
+
+  #butConferencia:hover {
+      transform: scale(1.8);
+      background-color: #CF8C5D;
+
+  }
+
+  /*butao lançamento */
+  #butLancamento {
+      margin: 20px;
+      height: 30px;
+      width: 100px;
+      transition: all 140ms;
+  }
+
+  #butLancamento:hover {
+      transform: scale(1.8);
+      background-color: #CF8C5D;
+  }
+
+  /*butao de aquivamento*/
+  #butArquivamento {
+      margin: 20px;
+      height: 30px;
+      width: 100px;
+      transition: all 140ms;
+  }
+
+  #butArquivamento:hover {
+      transform: scale(1.8);
+      background-color: #CF8C5D;
+  }
+
   .imagemAtuaçao {
       width: 450px;
       height: 650px;
@@ -157,15 +210,17 @@
       display: flex;
       height: 800px;
       background-color: var(--cor2);
-      
+
   }
- #bof{
-  margin: 20px;
- }
+
+  #bof {
+      margin: 20px;
+  }
+
   #imagemWender {
       height: 80%;
       border-radius: 0px;
-      margin: 10px auto ;
+      margin: 10px auto;
   }
 
   #euEsquerdo {
@@ -177,9 +232,14 @@
       width: 50%;
       margin: 40px 50px;
   }
-  .cartaoEu{
-    width: 90%;
+
+  .cartaoEu {
+      width: 90%;
+      font-family: "Lugrasimo", cursive;
+      font-weight: 400;
+      font-style: normal;
   }
+
   #quemSouEu {
       width: 90%;
   }
@@ -190,46 +250,66 @@
       margin: 30px 10px;
       width: 90%;
   }
-  #habilidadest{
-    text-align: center;
-  }
-  #final{
-    height: auto;
-    background-color: white;
-    
-    
-  }
-  #conteinerEu1{
-  display: flex;
 
-  }
-   #conteinerEu2{
-  display: flex;
-
-  }
-  .conteinerEu001{
-    width: 50%;
-    margin: 20px;
-  }
-  .tituluEu{
-    text-align: center;
-    margin-bottom: 10px ;
-}
-  .habilidadesEu{
-    text-align: justify;
+  #habilidadest {
+      text-align: center;
   }
 
+  #final {
+      height: auto;
+      background-color: white;
 
-  #finalLista{
-    display: flex;
-    justify-content: center; 
-    background-color: var(--cor2);
+
   }
-  .lista010{
-   
-   list-style: none;
-   margin: 30px;
- }
-i{
-    margin: 30px 50px;
-}
+
+  #conteinerEu1 {
+      display: flex;
+
+  }
+
+  #conteinerEu2 {
+      display: flex;
+
+  }
+
+  .conteinerEu001 {
+      width: 50%;
+      margin: 20px;
+  }
+
+  .tituluEu {
+      text-align: center;
+      margin-bottom: 10px;
+      font-family: "Lobster", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  .habilidadesEu {
+      text-align: justify;
+      font-family: "Lobster", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+
+  #finalLista {
+      display: flex;
+      justify-content: center;
+      background-color: var(--cor2);
+  }
+
+  .lista010 {
+      transition: all 40ms;
+      list-style: none;
+      margin: 30px;
+  }
+
+  .lista010:hover {
+
+      transform: scale(1.8);
+  }
+
+  i {
+      margin: 30px 50px;
+  }
